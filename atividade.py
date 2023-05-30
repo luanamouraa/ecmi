@@ -1,4 +1,4 @@
-pip install streamlit
+
 import csv
 import pandas as pd
 import streamlit as st
