@@ -5,3 +5,6 @@ st.caption('Luana Moura')
 
 df = pd.read_csv('Microsoft Stocks.csv', sep=',')
 st.dataframe(df)
+
+chart_data = df[['Price', 'Volume']]
+st.line_chart(chart_data)
