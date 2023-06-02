@@ -10,6 +10,7 @@ dataframe = pd.DataFrame({
      'Nome': ['Josir', 'Manu', 'Gabi', 'Lua'], 
      'Salário': [10, 20, 30, 40]
 })
+
 dataframe.style.highlight_max(axis=0)
 
 st.write(dataframe)
